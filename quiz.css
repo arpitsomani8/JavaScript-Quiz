@@ -29,3 +29,40 @@ h1{
 	padding:30px;
 	
 }
+.quiz_wrapper .question {
+	padding:15px;
+	background-color: #ff9d55;	
+	border-radius: 8px;
+	color:#000000;
+	font-size:20px;
+	float:left;
+	width: 100%;
+	font-family: 'Concert One', cursive;
+	text-align:center;
+	
+}
+.quiz_wrapper .options{
+	float:left;
+	width: 100%;
+}
+.quiz_wrapper .options ul{
+	list-style:none;
+	padding:0px;
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+.quiz_wrapper .options ul li{
+	display:inline-block;
+	background-color:#f0c6c6;
+	width: 47%;
+	padding:15px;
+	border-radius: 8px;
+	margin-top:25px;
+	font-size:15px;
+	color:#000000;
+	box-shadow:0px 3px 0px #a28787;
+	cursor:pointer;
+	outline:none;
+	text-align:center;
+}
