@@ -18,3 +18,14 @@ h1{
 	color:#000000;
 	margin:25px 0px 0px;
 }
+.quiz_wrapper {
+	background-image: url('./img6.jpg');
+	background-size:cover;
+	height: 430px;
+	width: 655px;
+	background-color:lightblue;
+	margin:30px auto;
+	border-radius: 8px;
+	padding:30px;
+	
+}
