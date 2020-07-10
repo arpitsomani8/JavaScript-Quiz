@@ -66,3 +66,49 @@ h1{
 	outline:none;
 	text-align:center;
 }
+
+
+.quiz_wrapper .score{
+	float:left;
+	width:100%;
+	padding:25px 0px;
+	
+}
+.quiz_wrapper .score .next{
+	width:40%;
+	float:left;
+}
+.quiz_wrapper .score .next button{
+	padding:15px 80px ;
+	color:#000000;
+	background-color:#15dafb;
+	border:none;
+	border-radius:8px;
+	font-size:15px;
+	cursor:pointer;
+	box-shadow:0px 3px 0px #3ea698;
+	outline:none;
+}
+.quiz_wrapper .score .next button:active{
+	box-shadow:0px 3px 0px transparent;
+}
+.quiz_wrapper .score .score-card{
+	width:30%;
+	float:left;
+}
+.quiz_wrapper .score .score-card{
+		font-size:20px;
+		color:white;
+		background-color:black;
+		border-radius:8px;
+		text-align:center;
+		line-height:50px;
+		text-transform:uppercase;
+}
+.quiz_wrapper .score .score-card span{
+	background-color:orange;
+	padding:5px 20px;
+	border-radius:8px;
+	color:#000000;
+	
+}
