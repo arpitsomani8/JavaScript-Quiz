@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Concert+One&diplay=swap');
+
+body {
+	background: url(./img5.jpg) no-repeat fixed;
+	background-color: lightgreen;
+	font-family:'Montserrat',sans-serif; 
+	margin:0;
+	background-size:cover;
+	padding:0;
+}
+*{
+	box-sizing:border-box;
+	font-family:sans-serif;
+}
+h1{
+	text-align:center;
+	color:#000000;
+	margin:25px 0px 0px;
+}
