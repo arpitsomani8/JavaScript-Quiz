@@ -44,6 +44,18 @@ h1{
 .quiz_wrapper .options{
 	float:left;
 	width: 100%;
+	animation:zoomIn .5s linear ;
+}
+@keyframes zoomIn{
+	0%{
+		transform:scale(0.8);
+		opacity:0;
+	}
+	
+	100%{
+		transform:scale(1);
+		opacity:1;
+	}
 }
 .quiz_wrapper .options ul{
 	list-style:none;
@@ -97,6 +109,7 @@ h1{
 	width:30px;
 	right:15px;
 	top:10px;
+	animation:fadeInRight .5s ease;
 }
 .quiz_wrapper .options ul li.wrong{
 	background-color:#f00;
@@ -115,8 +128,42 @@ h1{
 	width:30px;
 	right:15px;
 	top:10px;
+	animation:fadeInRight .5s ease;
 }
-
+@keyframes shake{
+	0%,30%,50%{
+		transform:translatex(-10px);
+	}
+	20%,40%{
+		transform:translatex(-10px);
+	}
+	60%{
+		transform:translatex(-7px);
+	}
+	70%{
+		transform:translatex(7px);
+	}
+	80%{
+		transform:translatex(-4px);
+	}
+	90%{
+		transform:translatex(4px);
+	}
+	100%{
+		transform:translatex(0px);
+	}
+}
+@keyframes fadeInRight{
+	0%{
+		opacity:0;
+		transform:translatex(-40px);
+	}
+	
+	100%{
+		opacity:1;
+		transform:translatex(0px);
+	}
+}
 .quiz_wrapper .score{
 	float:left;
 	width:100%;
@@ -161,3 +208,8 @@ h1{
 	color:#000000;
 	
 }
+
+
+
+
+
