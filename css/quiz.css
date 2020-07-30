@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Concert+One&diplay=swap');
 
 body {
-	background: url(./img/img5.jpg) no-repeat fixed;
+	background: url(../img/img5.jpg) no-repeat fixed;
 	background-color: lightgreen;
 	font-family:'Montserrat',sans-serif; 
 	margin:0;
@@ -19,7 +19,7 @@ h1{
 	margin:25px 0px 0px;
 }
 .quiz_wrapper {
-	background-image: url('./img/img6.jpg');
+	background-image: url('../img/img6.jpg');
 	background-size:cover;
 	height: 430px;
 	width: 655px;
@@ -101,7 +101,7 @@ h1{
 	content:'';
 	position:absolute;
 	background-color:lightgreen;
-	background-image:url(./img/img13.jpg);
+	background-image:url(../img/img13.jpg);
 	background-size:cover;
 	background-position:center;
 	background-repeat:no-repeat;
@@ -120,7 +120,7 @@ h1{
 	content:'';
 	position:absolute;
 	background-color:red;
-	background-image:url(./img/img14.jpg);
+	background-image:url(../img/img14.jpg);
 	background-size:cover;
 	background-position:center;
 	background-repeat:no-repeat;
