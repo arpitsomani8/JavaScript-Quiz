@@ -1,0 +1,24 @@
+{
+  "name": "js-quiz",
+  "version": "1.0.0",
+  "description": "JavaScript Quiz",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arpit081999/JavaScript-Quiz.git"
+  },
+  "author": "Arpit Somani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arpit081999/JavaScript-Quiz/issues"
+  },
+  "homepage": "https://github.com/arpit081999/JavaScript-Quiz#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
